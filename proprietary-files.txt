@@ -223,7 +223,7 @@ lib/libgps.utils.so
 lib/libgpu.cr.so
 
 # vendor
-#vendor/lib/libbt-vendor.so
+vendor/lib/libbt-vendor.so
 vendor/lib/libbtnv.so
 -vendor/lib/libtime_genoff.so
 vendor/smartvolume/bt_a2dp_headphones.csv

@@ -5,6 +5,10 @@ $(call inherit-product, device/amazon/apollo/device.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
 
+# Torch
+PRODUCT_PACKAGES += \
+    Torch
+
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
